@@ -1,0 +1,26 @@
+
+.time-line{
+    position: relative;
+    transform: translateY(10px);
+  }
+  
+  .vertical-line {
+    width: 1px;
+    height: 100%;
+    background-color: #1095D7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+  }
+  
+  .circle-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #1095D7;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

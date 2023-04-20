@@ -1,0 +1,120 @@
+[
+  {
+    "id": 4,
+    "candidateId": 3,
+    "title": "CV-2",
+    "avatar": "ctsv_pdt_storage/avatar/0/avatar_ecgCandidates-avatar_3bRXG0Eud4oUaToL.png",
+    "firstName": "Hà",
+    "lastName": "Đường Ngọc",
+    "gender": "",
+    "birthday": "",
+    "phone": "0369190545",
+    "email": "ha.dn19010056@st.phenikaa-uni.edu.vn",
+    "address": "qweqweqweqwe",
+    "majorName": "",
+    "majorCode": "",
+    "links": [
+      {
+        "link": "google.com",
+        "label": "link1"
+      },
+      {
+        "link": "facebook.com",
+        "label": "link2"
+      },
+      {
+        "link": "bing.com",
+        "label": "link3"
+      }
+    ],
+    "files": null,
+    "intro": "I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer. I'm a student at Phenikaa University of Technology, now I'm in my",
+    "education": [
+      {
+        "title": "",
+        "subtitle": "",
+        "startTime": null,
+        "endTime": null,
+        "description": "",
+        "links": null
+      }
+    ],
+    "experience": [
+      {
+        "title": "",
+        "subtitle": "",
+        "startTime": null,
+        "endTime": null,
+        "description": "",
+        "links": null
+      }
+    ],
+    "achievements": null,
+    "projects": null,
+    "skills": [
+      {
+        "name": "sdasdasd",
+        "level": 9,
+        "description": ""
+      }
+    ],
+    "jobs": null,
+    "createdAt": "2023-04-14T16:21:26.444363+07:00",
+    "updatedAt": "2023-04-17T16:48:45.544961+07:00"
+  },
+  {
+    "id": 3,
+    "candidateId": 3,
+    "title": "CV-1",
+    "avatar": "ctsv_pdt_storage/avatar/0/avatar_ecgCandidateCVs-avatar_B0YbO02Xryno2Fcj.png",
+    "firstName": "Hà",
+    "lastName": "Đường Ngọc",
+    "gender": "",
+    "birthday": "",
+    "phone": "0369190545",
+    "email": "ha.dn19010056@st.phenikaa-uni.edu.vn",
+    "address": "qweqweqweqwe",
+    "majorName": "",
+    "majorCode": "",
+    "links": [
+      {
+        "link": "google.com",
+        "label": "link1"
+      }
+    ],
+    "files": null,
+    "intro": "asdasdasdasd",
+    "education": [
+      {
+        "title": "",
+        "subtitle": "",
+        "startTime": null,
+        "endTime": null,
+        "description": "",
+        "links": null
+      }
+    ],
+    "experience": [
+      {
+        "title": "",
+        "subtitle": "",
+        "startTime": null,
+        "endTime": null,
+        "description": "",
+        "links": null
+      }
+    ],
+    "achievements": null,
+    "projects": null,
+    "skills": [
+      {
+        "name": "sdasdasd",
+        "level": 6,
+        "description": ""
+      }
+    ],
+    "jobs": null,
+    "createdAt": "2023-04-14T16:21:18.580698+07:00",
+    "updatedAt": "2023-04-17T17:01:51.276705+07:00"
+  }
+]
