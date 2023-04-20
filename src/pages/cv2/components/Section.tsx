@@ -5,7 +5,7 @@ const Section = ({
   title,
   content,
   icon,
-  dividerColor = 'white'
+  dividerColor = '#208BB6'
 }: {
   icon?: ReactNode;
   title: ReactNode;
@@ -18,14 +18,16 @@ const Section = ({
         direction="row"
         spacing={1}
         justifyContent={!icon ? 'center' : 'initial'}
+        alignItems="center"
+        mb="10px"
       >
         {icon}
-        <Typography textTransform="uppercase" fontWeight={600}>
+        <Typography textTransform="uppercase" fontSize={19} fontWeight={600} letterSpacing="1px">
           {title}
         </Typography>
       </Stack>
 
-      <Divider sx={{ backgroundColor: dividerColor, height: 2, my: 1 }} />
+      <Divider sx={{ backgroundColor: dividerColor, height: 1.5, my: 1 }} />
 
       {content}
     </Box>

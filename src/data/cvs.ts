@@ -56,7 +56,7 @@ export const data1: ECGCandidateCV = {
       "subtitle": "Internship at FPT Software",
       "startTime": "2022-01-01",
       "endTime": "2023-03-01",
-      "description": "I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer.I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer.I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer.",
+      "description": "I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer.I'm a student at Phenikaa University of Technology, now I'm in my 3rd year. I'm looking for a job as a software engineer.",
       "links": ""
     },
     {

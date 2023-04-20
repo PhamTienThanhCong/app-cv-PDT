@@ -11,7 +11,7 @@ import AbilitySection from './components/AbilitySection';
 import { data1 } from '../../data/cvs';
 import { ECGCandidateCV } from '../../models/ecg.candidate';
 
-const CV = (() => {
+const CV2 = (() => {
     const candidate:ECGCandidateCV = data1;
     document.title = `CV example`;
     // const [editDialog, setEditDialog] = useState<EditDialogProps>({
@@ -31,7 +31,8 @@ const CV = (() => {
         className="a4"
         overflow="auto"
         sx={{
-          '&::-webkit-scrollbar': { display: 'none' }
+          '&::-webkit-scrollbar': { display: 'none' },
+          backgroundColor: '#E3E2E8',
         }}
       >
         <Grid container height="100%">
@@ -55,4 +56,4 @@ const CV = (() => {
   }
 );
 
-export default CV;
+export default CV2;
