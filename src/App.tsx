@@ -4,6 +4,7 @@ import CV from "./pages/cv";
 import CV1 from "./pages/cv1";
 import { Box } from "@mui/material";
 import CV2 from "./pages/cv2";
+import CV3 from "./pages/cv3";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<CV />} />
         <Route path="/cv1" element={<CV1 />} />
         <Route path="/cv2" element={<CV2 />} />
+        <Route path="/cv3" element={<CV3 />} />
       </Routes>
     </Box>
   );

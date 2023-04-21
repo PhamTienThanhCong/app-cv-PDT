@@ -5,7 +5,7 @@ export const data1: ECGCandidateCV = {
   "candidateId": 3,
   "code" : "CV-2",
   // "title": "CV-2",
-  "avatar": "ctsv_pdt_storage/avatar/0/avatar_ecgCandidates-avatar_3bRXG0Eud4oUaToL.png",
+  "avatar": "https://www.shareicon.net/data/512x512/2016/09/15/829459_man_512x512.png",
   "firstName": "Hà",
   "lastName": "Đường Ngọc",
   "gender": "",
@@ -79,6 +79,11 @@ export const data1: ECGCandidateCV = {
     {
       "name": "Học code",
       "level": 5,
+      "description": ""
+    },
+    {
+      "name": "Tiếng anh",
+      "level": 7,
       "description": ""
     },
   ],
