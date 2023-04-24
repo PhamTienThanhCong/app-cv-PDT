@@ -78,17 +78,44 @@ const CV3 = (() => {
 
           <AbilitySection data={candidate} />
         </Grid>
-
-        {/* <EditDialog
-          {...editDialog}
-          handleClose={() => {
-            setEditDialog?.({
-              open: false,
-              data: null
-            });
-            setEditing(false);
+        <div
+          style={{
+            position: 'absolute',
+            bottom: 0,
+            right: 0,
+            width: '100%',
+            height: '120px',
+            backgroundColor: "#274256",
+            overflow: 'hidden',
           }}
-        /> */}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              bottom: 0,
+              right: "-4px",
+              overflow: 'hidden',
+              width: '106%',
+              height: '160px',
+              backgroundColor: "#00B3E4",
+              clipPath: "ellipse(55% 51% at 51% 26%)",
+              rotate: "4deg",
+            }}
+          >
+            <div
+              style={{
+                position: 'absolute',
+                bottom: "60px",
+                right: 0,
+                width: '100%',
+                height: '125px',
+                backgroundColor: "white",
+                clipPath: "ellipse(53% 51% at 53% 50%)",
+                rotate: "-3deg",
+              }}
+            ></div>
+          </div>
+        </div>
       </Box>
     );
   }
