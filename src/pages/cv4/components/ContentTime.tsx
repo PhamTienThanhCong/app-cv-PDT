@@ -2,18 +2,12 @@ import { Stack } from "@mui/material";
 import Section from "./Section";
 import ContentListTime from "./ContentListTime";
 import { ECGCandidateCV } from "../../../models/ecg.candidate";
-
-type ContentTimeProps = {
-  title: string;
-  subtitle?: string;
-  description: string;
-  startTime: string | Date | null;
-  endTime?: string | Date | null;
-}
+import { ReactNode } from "react";
 
 function ContentTime(props : {
   data?: ECGCandidateCV | null,
   title: string,
+  icon: ReactNode
 }
 // default props
 ) {
@@ -29,8 +23,9 @@ function ContentTime(props : {
     <Section
           title={props.title}
           section={2}
+          icon={props.icon}
           content={
-            <Stack spacing={2}>
+            <Stack spacing={0}>
               {data.map((item, index) => (
                 <ContentListTime key={`education-` + index} {...item} />
               ))}
