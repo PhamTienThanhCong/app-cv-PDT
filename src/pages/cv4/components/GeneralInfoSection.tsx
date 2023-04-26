@@ -33,7 +33,7 @@ const GeneralInfoSection = ({ data }: { data: ECGCandidateCV | null }) => {
       <div
         style={{
           width: "calc(100% - 10px)",
-          position: "absolute",
+          position: "relative",
           minHeight: "1085px",
           backgroundColor: "#32353A",
           zIndex: "1",

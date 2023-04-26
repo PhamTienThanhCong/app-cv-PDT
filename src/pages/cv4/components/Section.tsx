@@ -12,6 +12,13 @@ const Section = ({
   content: ReactNode;
   section?: number;
 }) => {
+  const titleStyle = {
+    textTransform: "uppercase",
+    fontSize: 20,
+    fontWeight: 500,
+    letterSpacing: "1px",
+    lineHeight: 1,
+  };
   return (
     <Box>
       <Stack
@@ -26,21 +33,32 @@ const Section = ({
           <>
             <div
               style={{
-                backgroundColor: "#D58401",
                 width: "286px",
                 margin: "25px 0",
                 marginLeft: "-24px",
                 textAlign: "center",
                 position: "relative",
-                zIndex: "999"
+                zIndex: "999",
               }}
             >
+              <div
+                style={{
+                  backgroundColor: "#D58401",
+                  position: "absolute",
+                  width: "286px",
+                  top: "0",
+                  left: "0",
+                }}
+              >
+                <Typography
+                  sx={{...titleStyle}}
+                  style={{ color: "#fff", padding: "10px 0 10px 0px" }}
+                >
+                  {title}
+                </Typography>
+              </div>
               <Typography
-                textTransform="uppercase"
-                fontSize={20}
-                fontWeight={500}
-                letterSpacing="1px"
-                lineHeight={1}
+                sx={{...titleStyle}}
                 style={{ color: "#fff", padding: "10px 0 10px 0px" }}
               >
                 {title}
