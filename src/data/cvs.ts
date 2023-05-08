@@ -5,7 +5,7 @@ export const data1: ECGCandidateCV = {
   "candidateId": 3,
   "code" : "CV-2",
   // "title": "CV-2",
-  "avatar": "https://www.shareicon.net/data/512x512/2016/09/15/829459_man_512x512.png",
+  "avatar": "https://i1.sndcdn.com/avatars-z00KBgd97lujEnL6-OBgTUg-t500x500.jpg",
   "firstName": "Hà",
   "lastName": "Đường Ngọc",
   "gender": "",

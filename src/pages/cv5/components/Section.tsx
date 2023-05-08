@@ -1,5 +1,6 @@
 import { Box, Stack, Typography } from "@mui/material";
 import React, { ReactNode } from "react";
+import SignalCellular4BarIcon from "@mui/icons-material/SignalCellular4Bar";
 
 interface SectionProps {
   icon?: ReactNode;
@@ -11,22 +12,23 @@ interface SectionProps {
 const Section = ({ title, content, icon, section = 1 }: SectionProps) => {
   const titleStyle = {
     textTransform: "uppercase",
-    fontSize: section === 2 ? 17 : 25,
-    fontWeight: section === 2 ? 600 : 500,
+    fontSize: 17,
+    fontWeight: 600,
     letterSpacing: "1px",
     lineHeight: 1,
+    float: "left",
   };
 
   return (
-    <Box>
+    <Box mt={section === 1 ? 3 : 0}>
       <Stack
         direction="row"
         spacing={1}
-        justifyContent={section === 1 ? "center" : "flex-start"}
+        justifyContent={"flex-start"}
         alignItems="center"
         mb="10px"
       >
-        {icon}
+        <SignalCellular4BarIcon sx={{ fontSize: 20, mr: 1, color: "#27D5F7" }} />
         <Typography sx={{ ...titleStyle }} textTransform="uppercase">
           {title}
         </Typography>
